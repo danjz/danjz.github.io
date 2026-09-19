@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Jiménez — Ingeniero de IA</title>
+<meta name="description" content="Ingeniero de IA enfocado en calidad, evaluación y seguridad. LLMs, RAG y agentes con Python, PyTorch y LangChain. Colombia, trabajo remoto.">
+<meta name="author" content="Daniel Jiménez">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Daniel Jiménez — Ingeniero de IA">
+<meta property="og:description" content="Calidad, evaluación y seguridad de sistemas de IA. LLMs, RAG y agentes.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><rect width='30' height='30' rx='6' fill='%2305070D'/><circle cx='15' cy='15' r='5' fill='none' stroke='%234D9BFF' stroke-width='2'/></svg>">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"IBM Plex Sans","Helvetica Neue",sans-serif;background:#05070D;-webkit-font-smoothing:antialiased}
+a{color:#6BB0FF;transition:color .15s ease}
+a:hover{color:#A7D0FF}
+a:focus-visible{outline:2px solid #4D9BFF;outline-offset:3px;border-radius:3px}
+article{transition:border-color .2s ease}
+article:hover{border-color:#27406B}
+@media (max-width:760px){
+  header,section,footer{padding-left:24px !important;padding-right:24px !important}
+  article{padding:24px !important}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none !important}}
+</style>
+</head>
+<body>
+<div style="width: 100%; max-width: 1480px; margin: 0 auto; box-sizing: border-box; background: #05070D; color: #E6EDF7; display: flex; flex-direction: column; font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif;">
+
+<header style="box-sizing: border-box; padding: 26px 72px; border-bottom: 1px solid #16243C; display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; gap: 14px;">
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+<rect x="3" y="3" width="24" height="24" rx="5" stroke="#4D9BFF" stroke-width="1.6"></rect>
+<circle cx="15" cy="15" r="4.5" stroke="#4D9BFF" stroke-width="1.6"></circle>
+<path d="M15 3v3M15 24v3M3 15h3M24 15h3" stroke="#3E6CA8" stroke-width="1.6" stroke-linecap="round"></path>
+</svg>
+<span style="font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; letter-spacing: 0.01em;">Daniel Jiménez</span>
+</div>
+<nav style="display: flex; align-items: center; gap: 30px; font-size: 15px;">
+<a href="#sobre-mi" style="color: #9FB3D0; text-decoration: none;">Sobre mí</a>
+<a href="#stack" style="color: #9FB3D0; text-decoration: none;">Stack</a>
+<a href="#proyectos" style="color: #9FB3D0; text-decoration: none;">Proyectos</a>
+<a href="#formacion" style="color: #9FB3D0; text-decoration: none;">Formación</a>
+<a href="mailto:djjzs936@gmail.com" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 4px; background: #4D9BFF; color: #04070E; font-weight: 600; text-decoration: none;">Contactar</a>
+</nav>
+</header>
+
+<section style="box-sizing: border-box; padding: 96px 72px 88px 72px; border-bottom: 1px solid #16243C; display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 64px; align-items: center;">
+<div>
+<div style="display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px; border: 1px solid #1E3358; border-radius: 40px; background: #0A1326; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.08em; color: #8FC0FF;">
+<svg width="8" height="8" viewBox="0 0 8 8" aria-hidden="true"><circle cx="4" cy="4" r="4" fill="#4D9BFF"></circle></svg>
+DISPONIBLE PARA TRABAJO REMOTO
+</div>
+<h1 style="margin: 26px 0 0 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(46px, 5.6vw, 76px); line-height: 1.04; font-weight: 700; letter-spacing: -0.025em;">Ingeniero de IA<br>enfocado en <span style="color: #4D9BFF;">calidad,<br>evaluación y seguridad</span></h1>
+<p style="margin: 26px 0 0 0; max-width: 560px; font-size: 20px; line-height: 1.65; color: #A9BCD6;">Construyo y pongo a prueba sistemas con LLMs, RAG y agentes. Vengo de QA e ingeniería de software, así que lo que me interesa no es solo que el modelo responda, sino que responda bien, de forma medible y segura.</p>
+<div style="margin-top: 36px; display: flex; flex-wrap: wrap; gap: 12px;">
+<a href="#proyectos" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 4px; background: #4D9BFF; color: #04070E; font-size: 16px; font-weight: 600; text-decoration: none;">Ver proyectos</a>
+<a href="https://github.com/danjz" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 4px; border: 1px solid #27406B; background: #0A1326; color: #E6EDF7; font-size: 16px; font-weight: 500; text-decoration: none;">GitHub</a>
+<a href="https://www.linkedin.com/in/daniel-jim%C3%A9nez-40b02940b/" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 26px; border-radius: 4px; border: 1px solid #27406B; background: #0A1326; color: #E6EDF7; font-size: 16px; font-weight: 500; text-decoration: none;">LinkedIn</a>
+</div>
+</div>
+
+<svg viewBox="0 0 520 440" width="100%" style="display: block; max-width: 560px; justify-self: end;" aria-hidden="true">
+<defs>
+<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+<path d="M26 0H0V26" fill="none" stroke="#111F36" stroke-width="1"></path>
+</pattern>
+</defs>
+<rect x="0.5" y="0.5" width="519" height="439" rx="10" fill="#070C18" stroke="#1A2B48" stroke-width="1"></rect>
+<rect x="1" y="1" width="518" height="438" rx="10" fill="url(#grid)"></rect>
+<path d="M18 10H10v8M502 10h8v8M18 430H10v-8M502 430h8v-8" stroke="#4D9BFF" stroke-width="2" fill="none"></path>
+<g stroke="#20406E" stroke-width="1.2">
+<line x1="105" y1="130" x2="255" y2="95"></line>
+<line x1="105" y1="130" x2="255" y2="185"></line>
+<line x1="105" y1="130" x2="255" y2="275"></line>
+<line x1="105" y1="130" x2="255" y2="365"></line>
+<line x1="105" y1="220" x2="255" y2="95"></line>
+<line x1="105" y1="220" x2="255" y2="185"></line>
+<line x1="105" y1="220" x2="255" y2="275"></line>
+<line x1="105" y1="220" x2="255" y2="365"></line>
+<line x1="105" y1="310" x2="255" y2="95"></line>
+<line x1="105" y1="310" x2="255" y2="185"></line>
+<line x1="105" y1="310" x2="255" y2="275"></line>
+<line x1="105" y1="310" x2="255" y2="365"></line>
+<line x1="255" y1="95" x2="410" y2="165"></line>
+<line x1="255" y1="95" x2="410" y2="290"></line>
+<line x1="255" y1="185" x2="410" y2="165"></line>
+<line x1="255" y1="185" x2="410" y2="290"></line>
+<line x1="255" y1="275" x2="410" y2="165"></line>
+<line x1="255" y1="275" x2="410" y2="290"></line>
+<line x1="255" y1="365" x2="410" y2="165"></line>
+<line x1="255" y1="365" x2="410" y2="290"></line>
+</g>
+<g stroke="#4D9BFF" stroke-width="1.8">
+<line x1="105" y1="220" x2="255" y2="185"></line>
+<line x1="255" y1="185" x2="410" y2="165"></line>
+</g>
+<g fill="#070C18" stroke="#3E79C4" stroke-width="2">
+<circle cx="105" cy="130" r="11"></circle>
+<circle cx="105" cy="310" r="11"></circle>
+<circle cx="255" cy="95" r="11"></circle>
+<circle cx="255" cy="275" r="11"></circle>
+<circle cx="255" cy="365" r="11"></circle>
+<circle cx="410" cy="290" r="13"></circle>
+</g>
+<g fill="#4D9BFF" stroke="#4D9BFF" stroke-width="2">
+<circle cx="105" cy="220" r="11"></circle>
+<circle cx="255" cy="185" r="11"></circle>
+<circle cx="410" cy="165" r="13"></circle>
+</g>
+<circle cx="410" cy="165" r="24" fill="none" stroke="#2C568F" stroke-width="1.2"></circle>
+<g font-family="IBM Plex Mono, monospace" font-size="11" fill="#7C93B4">
+<text x="72" y="392">input</text>
+<text x="222" y="392">capas</text>
+<text x="382" y="392">salida</text>
+</g>
+<rect x="28" y="28" width="118" height="30" rx="4" fill="#0C1729" stroke="#1E3358" stroke-width="1"></rect>
+<text x="42" y="48" font-family="IBM Plex Mono, monospace" font-size="12" fill="#8FC0FF">eval · trace</text>
+</svg>
+</section>
+
+<section style="box-sizing: border-box; padding: 40px 72px; border-bottom: 1px solid #16243C; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 32px;">
+<div>
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 600; color: #4D9BFF;">10</div>
+<div style="margin-top: 4px; font-size: 15px; color: #9FB3D0;">cursos y certificados completados</div>
+</div>
+<div>
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 600; color: #4D9BFF;">7</div>
+<div style="margin-top: 4px; font-size: 15px; color: #9FB3D0;">especializaciones en curso</div>
+</div>
+<div>
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 600; color: #4D9BFF;">NVIDIA</div>
+<div style="margin-top: 4px; font-size: 15px; color: #9FB3D0;">AI Infrastructure &amp; Operations</div>
+</div>
+<div>
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 34px; font-weight: 600; color: #4D9BFF;">CO</div>
+<div style="margin-top: 4px; font-size: 15px; color: #9FB3D0;">Colombia · 100% remoto</div>
+</div>
+</section>
+
+<section id="sobre-mi" style="box-sizing: border-box; padding: 76px 72px; border-bottom: 1px solid #16243C;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.18em; color: #4D9BFF;">01</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em;">Sobre mí</h2>
+</div>
+<div style="margin-top: 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 48px; align-items: start;">
+<p style="margin: 0; font-size: 19px; line-height: 1.75; color: #A9BCD6;">Vengo de QA e ingeniería de software, y hoy trabajo del lado de la calidad, la evaluación y la seguridad de la inteligencia artificial: probar modelos, medir cómo se comportan y construir aplicaciones con LLMs, RAG y agentes usando Python, PyTorch y LangChain. Certificado por NVIDIA en AI Infrastructure and Operations.</p>
+<div style="display: flex; flex-direction: column; gap: 14px;">
+<div style="display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid #16243C; font-size: 16px;"><span style="color: #9FB3D0;">Ubicación</span><span>Colombia · remoto</span></div>
+<div style="display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid #16243C; font-size: 16px;"><span style="color: #9FB3D0;">Español</span><span>Nativo</span></div>
+<div style="display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid #16243C; font-size: 16px;"><span style="color: #9FB3D0;">Inglés</span><span>Básico</span></div>
+<div style="display: flex; justify-content: space-between; padding-bottom: 12px; border-bottom: 1px solid #16243C; font-size: 16px;"><span style="color: #9FB3D0;">Correo</span><a href="mailto:djjzs936@gmail.com" style="text-decoration: none;">djjzs936@gmail.com</a></div>
+</div>
+</div>
+</section>
+
+<section id="stack" style="box-sizing: border-box; padding: 76px 72px; border-bottom: 1px solid #16243C;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.18em; color: #4D9BFF;">02</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em;">Stack y áreas</h2>
+</div>
+<div style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px;">
+
+<div style="box-sizing: border-box; padding: 28px; background: #080E1C; border: 1px solid #16243C; border-radius: 6px;">
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+<rect x="8" y="8" width="12" height="12" rx="2" stroke="#4D9BFF" stroke-width="1.8"></rect>
+<path d="M11 3v5M17 3v5M11 20v5M17 20v5M3 11h5M3 17h5M20 11h5M20 17h5" stroke="#3E6CA8" stroke-width="1.8" stroke-linecap="round"></path>
+</svg>
+<h3 style="margin: 16px 0 18px 0; font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600;">IA y LLMs</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Python</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">PyTorch</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">LangChain</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">LLMs</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">RAG</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Agentes</span>
+</div>
+</div>
+
+<div style="box-sizing: border-box; padding: 28px; background: #080E1C; border: 1px solid #16243C; border-radius: 6px;">
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+<path d="M14 3l9 4v7c0 6-4 9.6-9 11-5-1.4-9-5-9-11V7l9-4z" stroke="#4D9BFF" stroke-width="1.8" stroke-linejoin="round"></path>
+<path d="M10 14l3 3 5-6" stroke="#3E6CA8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<h3 style="margin: 16px 0 18px 0; font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600;">Calidad y seguridad</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Evaluación de modelos</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Seguridad de IA</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">QA y testing</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">ISTQB</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Ciberseguridad</span>
+</div>
+</div>
+
+<div style="box-sizing: border-box; padding: 28px; background: #080E1C; border: 1px solid #16243C; border-radius: 6px;">
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+<path d="M10 9l-6 5 6 5M18 9l6 5-6 5" stroke="#4D9BFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+<path d="M15.5 5l-3 18" stroke="#3E6CA8" stroke-width="1.8" stroke-linecap="round"></path>
+</svg>
+<h3 style="margin: 16px 0 18px 0; font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600;">Ingeniería</h3>
+<div style="display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">SQL</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">JavaScript</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">HTML y CSS</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Git y GitHub</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Automatización</span>
+<span style="padding: 7px 13px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-size: 14px; color: #CFDDF0;">Agile y Scrum</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="proyectos" style="box-sizing: border-box; padding: 76px 72px; border-bottom: 1px solid #16243C;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.18em; color: #4D9BFF;">03</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em;">Proyectos</h2>
+</div>
+<p style="margin: 14px 0 0 0; font-size: 17px; color: #8FA3C0;">Dos productos propios, construidos de punta a punta. Los repositorios son vitrinas: documentación, arquitectura y decisiones.</p>
+
+<article style="margin-top: 40px; box-sizing: border-box; padding: 36px; background: #080E1C; border: 1px solid #16243C; border-radius: 6px;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 16px;">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 600; color: #4D9BFF;">Tradech</h3>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; border-radius: 40px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; color: #8FC0FF;">LISTO PARA DESPLEGAR</span>
+</div>
+<a href="https://github.com/danjz/tradech" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 1px solid #27406B; border-radius: 4px; color: #E6EDF7; font-size: 15px; text-decoration: none;">github.com/danjz/tradech</a>
+</div>
+<p style="margin: 18px 0 0 0; max-width: 900px; font-size: 20px; line-height: 1.55; color: #C3D2E8;">Diario de trading que audita tus propios números: obliga a declarar el plan antes de entrar al mercado y después mide la distancia entre lo planificado y lo ejecutado.</p>
+<div style="margin-top: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 44px;">
+<div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0;">Qué construí</div>
+<p style="margin: 12px 0 0 0; font-size: 16px; line-height: 1.7; color: #A9BCD6;">Producto, arquitectura, implementación y pruebas. El motor financiero puro con aritmética decimal exacta —sizing para CFD, futuros y perpetuos, presupuesto de riesgo, R planificada contra realizada, curva de equity— al 100 % de cobertura con golden tests, y un modelo de 24 tablas aislado por Row Level Security de PostgreSQL. Seis linters propios rompen la compilación si el código viola una de las catorce reglas del proyecto: una regla que solo vive en un documento se rompe en tres semanas.</p>
+</div>
+<div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0;">Reto técnico</div>
+<p style="margin: 12px 0 0 0; font-size: 16px; line-height: 1.7; color: #A9BCD6;">Los <code style="font-family: 'IBM Plex Mono', monospace; font-size: 15px; color: #CFDDF0;">number</code> de JavaScript no sirven para dinero: 0.1 + 0.2 no da 0.3, y en una calculadora de riesgo ese error llega hasta el tamaño de posición real del usuario. En vez de confiar en la disciplina, lo convertí en una ley verificada por el linter: todo valor financiero cruza las fronteras como cadena decimal canónica y vive como Decimal dentro del núcleo, que es puro y determinista. Eso es justo lo que permite el 100 % de cobertura sin un solo mock.</p>
+</div>
+</div>
+<div style="margin-top: 32px; padding-top: 26px; border-top: 1px solid #16243C; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 24px;">
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">644</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">tests en verde</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">100 %</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">cobertura del núcleo</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">24</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">tablas · 52 rutas</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">48.5k</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">líneas de TypeScript</div></div>
+</div>
+<div style="margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Next.js 16</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">React 19</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">TypeScript strict</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">PostgreSQL + RLS</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Supabase</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Drizzle ORM</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">decimal.js-light</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Tailwind v4</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Vitest</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Playwright</span>
+</div>
+</article>
+
+<article style="margin-top: 28px; box-sizing: border-box; padding: 36px; background: #080E1C; border: 1px solid #16243C; border-radius: 6px;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;">
+<div style="display: flex; align-items: center; gap: 16px;">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 600; color: #4D9BFF;">IA personal</h3>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; border-radius: 40px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; color: #8FC0FF;">EN USO DIARIO</span>
+</div>
+<a href="https://github.com/danjz/ia-personal" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 1px solid #27406B; border-radius: 4px; color: #E6EDF7; font-size: 15px; text-decoration: none;">github.com/danjz/ia-personal</a>
+</div>
+<p style="margin: 18px 0 0 0; max-width: 900px; font-size: 20px; line-height: 1.55; color: #C3D2E8;">Asistente de voz para Windows que corre casi entero en la máquina local: oye una palabra clave, transcribe, piensa con un modelo local, responde hablando y recuerda, sin que el audio salga del equipo.</p>
+<div style="margin-top: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 44px;">
+<div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0;">Qué construí</div>
+<p style="margin: 12px 0 0 0; font-size: 16px; line-height: 1.7; color: #A9BCD6;">La cadena de voz completa —palabra clave, detección de fin de habla, transcripción, modelo de lenguaje, síntesis y memoria—, incluido el modelo de palabra clave, entrenado desde cero y exportado a ONNX porque no existía uno público para esa palabra. Y la capa de seguridad: los permisos no viven en el prompt sino en un hook externo que falla cerrado, ninguna acción destructiva se aprueba por voz —solo por click, porque cualquier audio del cuarto podría falsificar una confirmación hablada— y las que abren aplicaciones pasan por una allowlist estricta contra inyección de prompt.</p>
+</div>
+<div>
+<div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0;">Reto técnico</div>
+<p style="margin: 12px 0 0 0; font-size: 16px; line-height: 1.7; color: #A9BCD6;">Cada turno tardaba 20 segundos y la conversación era inusable. Midiendo descubrí que el caché del modelo local va por prefijo de tokens y se invalida en el primer token que difiere: deslizar la ventana de historial, que parece la práctica correcta, cambia el prefijo en cada turno y tira el caché entero. Invertí la regla —el historial crece, nunca se desliza— y pasé de 20,15 s a 0,74 s por turno. Encima, el cerebro entrega frases completas a un reproductor de tres hilos según las genera, así el turno cuesta el máximo de las etapas y no la suma.</p>
+</div>
+</div>
+<div style="margin-top: 32px; padding-top: 26px; border-top: 1px solid #16243C; display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 24px;">
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">27×</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">más rápido por turno</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">0,74 s</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">desde 20,15 s</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">766</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">tests en 47 archivos</div></div>
+<div><div style="font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; color: #4D9BFF;">77 %</div><div style="margin-top: 2px; font-size: 14px; color: #8FA3C0;">menos silencio inicial</div></div>
+</div>
+<div style="margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px;">
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Python 3</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">openWakeWord · ONNX propio</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Silero VAD</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">faster-whisper</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Ollama</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">Kokoro-82M + ElevenLabs</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">SQLite + fastembed</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">pywebview</span>
+<span style="padding: 6px 12px; border: 1px solid #1E3358; background: #0B1426; border-radius: 3px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #CFDDF0;">pytest</span>
+</div>
+<p style="margin: 22px 0 0 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; line-height: 1.6; color: #7C93B4;">Nombre en clave interno: «Cortana». Sin afiliación ni relación con Microsoft.</p>
+</article>
+
+</section>
+
+<section id="formacion" style="box-sizing: border-box; padding: 76px 72px; border-bottom: 1px solid #16243C;">
+<div style="display: flex; align-items: baseline; gap: 18px;">
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.18em; color: #4D9BFF;">04</span>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 42px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em;">Formación</h2>
+</div>
+<div style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 56px;">
+
+<div>
+<h3 style="margin: 0 0 10px 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0; font-weight: 500;">Completados — 10</h3>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">AI Infrastructure and Operations Fundamentals</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #4D9BFF;">NVIDIA · certificación</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Certificado Profesional de Google Cybersecurity</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Google</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Python for Everybody</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">University of Michigan</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">SQL for Data Science</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">University of California, Davis</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Automation and Scripting with Python</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Microsoft</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Software Testing Fundamentals for ISTQB Exams Prep</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Board Infinity</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Programming with JavaScript</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Meta</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">HTML and CSS in depth</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Meta</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Introduction to Git and GitHub</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Google</div>
+</div>
+<div style="border-top: 1px solid #16243C; border-bottom: 1px solid #16243C; padding: 15px 0 14px 0;">
+<div style="font-size: 16px; line-height: 1.35;">Introduction to Agile Development and Scrum</div>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">IBM</div>
+</div>
+</div>
+
+<div>
+<h3 style="margin: 0 0 10px 0; font-family: 'IBM Plex Mono', monospace; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: #8FA3C0; font-weight: 500;">En curso — 7</h3>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/ai-engineer" style="font-size: 16px; line-height: 1.35; text-decoration: none;">IBM AI Engineering</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">IBM · especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/ibm-generative-ai-engineering" style="font-size: 16px; line-height: 1.35; text-decoration: none;">IBM Generative AI Engineering</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">IBM · especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/generative-ai-software-engineering" style="font-size: 16px; line-height: 1.35; text-decoration: none;">Generative AI Software Engineering</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/ai-security-security-in-the-age-of-artificial-intelligence" style="font-size: 16px; line-height: 1.35; text-decoration: none;">AI Security: Security in the Age of Artificial Intelligence</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/artificial-intelligence-ethics" style="font-size: 16px; line-height: 1.35; text-decoration: none;">Artificial Intelligence Ethics</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/specializations/ai-for-business-wharton" style="font-size: 16px; line-height: 1.35; text-decoration: none;">AI for Business</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Wharton · especialización</div>
+</div>
+<div style="border-top: 1px solid #16243C; border-bottom: 1px solid #16243C; padding: 15px 0 14px 0;">
+<a href="https://www.coursera.org/learn/ai-for-research--analysis/home/welcome" style="font-size: 16px; line-height: 1.35; text-decoration: none;">AI for Research &amp; Analysis</a>
+<div style="margin-top: 5px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #8FA3C0;">Curso</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="box-sizing: border-box; padding: 80px 72px;">
+<div style="position: relative; box-sizing: border-box; padding: 56px; background: #080E1C; border: 1px solid #1E3358; border-radius: 8px; text-align: center;">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 40px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em;">¿Trabajamos juntos?</h2>
+<p style="margin: 18px auto 0 auto; max-width: 620px; font-size: 19px; line-height: 1.65; color: #A9BCD6;">Abierto a roles remotos en ingeniería de IA, evaluación de modelos y calidad de sistemas con LLMs.</p>
+<div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+<a href="mailto:djjzs936@gmail.com" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 4px; background: #4D9BFF; color: #04070E; font-size: 16px; font-weight: 600; text-decoration: none;">djjzs936@gmail.com</a>
+<a href="https://www.linkedin.com/in/daniel-jim%C3%A9nez-40b02940b/" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 4px; border: 1px solid #27406B; color: #E6EDF7; font-size: 16px; font-weight: 500; text-decoration: none;">LinkedIn</a>
+<a href="https://github.com/danjz" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 26px; border-radius: 4px; border: 1px solid #27406B; color: #E6EDF7; font-size: 16px; font-weight: 500; text-decoration: none;">github.com/danjz</a>
+</div>
+</div>
+</section>
+
+<footer style="box-sizing: border-box; padding: 28px 72px 44px 72px; border-top: 1px solid #16243C; display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: #7C93B4;">
+<span>Daniel Jiménez — Ingeniero de IA</span>
+<span>Colombia · trabajo remoto</span>
+</footer>
+
+</div>
+</body>
+</html>
